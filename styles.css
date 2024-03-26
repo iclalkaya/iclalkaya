@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color:#634390;
+    padding: 20px;
+}
+table{
+    background-color: rgb(203, 84, 171);
+    color: #271922;
+    padding: 10px;
+}
+.main-content{
+    width: 70%;
+    float: left;
+    padding: 10px;
+
+}
+.text{
+    font-size: 20px;
+    font-weight: 300;
+    color: aquamarine;
+}
+h1{
+    text-align: left;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: right;
+}
+#defne{
+    background-color: rgb(203, 104, 165);
+}
+.links{
+    border: 1px solid #e07f7f; /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+}
