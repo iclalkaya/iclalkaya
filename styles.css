@@ -1,50 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+body {
     width: 80%;
     margin: 0 auto;
     background-color:#634390;
     padding: 20px;
 }
-table{
+table {
     background-color: rgb(203, 84, 171);
     color: #271922;
     padding: 10px;
 }
-.main-content{
+.main-content {
     width: 70%;
     float: left;
     padding: 10px;
 
 }
-.text{
+.text {
     font-size: 20px;
     font-weight: 300;
     color: aquamarine;
 }
-h1{
+h1 {
     text-align: left;
 }
-h2{
+h2 {
     text-align: left;
 }
-h3{
+h3 {
     text-align: right;
 }
-#defne{
+#defne {
     background-color: rgb(203, 104, 165);
 }
-.links{
+.links {
     border: 1px solid #e07f7f; /* For debugging */
     display: flex;
     justify-content: flex-end;
 }
-.login{
+.login {
     margin-left: 20px;
 }
-.menu{
+.menu {
     display: flex;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.flex-item {
+    flex: 0 1 auto;
+    order: 2;
+    align-self: center;
+}
+.header-container {
+    color: rgb(43, 28, 183);
+    background-color: rgb(180, 194, 211);
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-grid {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.photo-grid-item {
+    border: 10px solid #d0aaaa;
+    width: 300px;
+    height: 300px;
 }
