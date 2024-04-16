@@ -9,6 +9,13 @@ body {
     background-color:#634390;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+    padding: auto;
+}
+a:hover{
+background-color: azure;
+}
 table {
     background-color: rgb(203, 84, 171);
     color: #271922;
@@ -47,6 +54,7 @@ h3 {
 }
 .menu {
     display: flex;
+    justify-content: space-between;
 }
 .flex-container {
     display: flex;
@@ -61,7 +69,7 @@ h3 {
     align-self: center;
 }
 .header-container {
-    color: rgb(43, 28, 183);
+    color: rgb(53, 34, 161);
     background-color: rgb(180, 194, 211);
     display: flex;
     justify-content: center;
@@ -85,4 +93,6 @@ h3 {
     border: 10px solid #d0aaaa;
     width: 300px;
     height: 300px;
+    overflow: hidden;
 }
+
