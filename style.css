@@ -1,0 +1,178 @@
+*{
+    font-family: 'Afacad', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/fa/28/c4/fa28c41eafadc35e3bf7e82dba4c9549.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+ 
+.menu-container{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    height: 8rem;
+    align-items: center;
+    color: palevioletred;
+}
+
+.baslik{
+    font-size: 200%;
+    font-weight: 200;
+    margin: auto;
+} 
+    
+.p{
+    margin-top: 17%;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+    
+.box{
+    width: 29%;
+    height: 30%;
+    background-color: palevioletred;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 51%;
+    left: 20%;
+    text-align: center;
+    border-style: dashed;
+}
+        
+.box2{
+    width: 29%;
+    height: 30%;
+    background-color: palevioletred;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 51%;
+    right: 20%;
+    text-align: center;
+    border-style: dashed;
+}
+    
+.yazı1{
+    margin-top: 18%;
+    font-size: 260%;
+    background-color: palevioletred;
+}
+            
+.yazı2{
+    margin-top: 18%;
+    font-size: 260%;
+    background-color: palevioletred;
+}
+            
+.container3{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    right: 2%;
+    height: 7rem;
+    background-color: palevioletred;
+    border-style: dashed;
+    align-items: center;
+}
+
+.baslik2{
+    font-size: 200%;
+    margin-left: 40%;  
+    color: black;
+}
+
+.p2{
+    margin-top:20%;
+    font-size: 200%;
+    margin-left: 35%;
+    align-items: center;
+}
+
+.yazı3{
+    position: fixed;
+    top: 0;
+    right: 15%;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+             
+.menu-container1{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    right: 2%;
+    height: 7rem;
+    background-color: palevioletred;
+    border-style: dotted;
+    align-items: center;
+}
+                
+.baslik1{
+    font-size: 200%;
+    color: black;
+    margin-left: 40%;
+}
+    
+img{
+    padding: 1%;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-container1{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container4{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+                
+.img-container3{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+        
+.img-container2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+        
+.img-container6{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container7{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+        
