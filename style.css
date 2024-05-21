@@ -175,4 +175,8 @@ img{
 }
 
 
-        
+.newDiv{
+    background-color: rgb(197, 94, 231);
+    padding: 10px;
+    margin: 10px;
+}
