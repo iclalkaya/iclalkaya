@@ -174,9 +174,27 @@ img{
     justify-content: space-evenly;
 }
 
+.screensaver-layout { background: hotpink; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+.hidden { display: none; }
 
-.newDiv{
-    background-color: rgb(197, 94, 231);
-    padding: 10px;
-    margin: 10px;
+.greetings {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: antiquewhite;
+    text-align: left;
+    font-style: italic;
+    position: fixed;
+    top: 0;
+    left: 2%;
 }
+
+.date {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: antiquewhite;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 2%;
+}
+
